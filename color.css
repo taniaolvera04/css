@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  div{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: 4px ridge black;
+    box-shadow: -5px 5px 30px black;
+    margin: 100px;
+    padding: 50px;
+  }
+  
+  #ej{
+    border: 4px dashed;
+  }
+  
+  #key{
+    background: yellow;
+  }
+  
+  #hex{
+    background: #706d25;
+  }
+  
+  #hexc{
+    background: #FAB;
+  }
+  
+  #rgb{
+    background: rgb(47,79,79) ;
+  }
+  
+  #rgb2{
+    background: rgb(70%, 20%, 100%) ;
+  }
+  
+  #rgba{
+    background: rgba(70, 7, 40, 1);
+  }
+  
+  .rgba2{
+    background: rgba(10%, 100%, 90%, 0.5);
+  }
+  
+  
+  .deg{background: rgb(219,21,255);
+  background: linear-gradient(0deg, rgba(219,21,255,1) 1%, rgba(35,25,186,1) 96%);
+  }
+  .deg2{
+    background: radial-gradient(circle, rgba(251,63,126,1) 0%, rgba(143,31,161,1) 100%);
+  }
+  .deg3{
+    background: radial-gradient(circle, rgba(168,238,242,1) 0%, rgba(255,189,250,1) 100%);
+  }
+  .deg4{background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(172,20,20,1) 54%, rgba(252,176,69,1) 100%);;
+  }
+  .deg5{
+    background: linear-gradient(90deg, rgba(193,254,254,1) 0%, rgba(59,106,251,1) 100%);
+  }
+  
+  .som{
+    background: darkseagreen;
+    box-shadow: -80px 50px 60px #556b2f;
+  }
+  
+  .hsl{
+    background: hsl(240,100%,26%);
+  }
+  
+  .hsl2{
+    background: hsl(338, 100%, 56%);
+  }
+  
+  .hsla{
+    background: hsla(281, 100%, 25%, 1);
+  }
+  
+  
+  .hsla2{
+    background: hsla(220, 15%, 28%, 1);
+  }
