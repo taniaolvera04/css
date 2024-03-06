@@ -143,3 +143,21 @@ font-weight: bold;
     text-align: justify;
     line-height: 0.5;
 }
+
+/*SEPARACIÓN ENTRE LETRAS Y SEPARACIÓN ENTRE PALABRAS*/
+
+#sepa1{
+letter-spacing: 50px;
+}
+
+#sepa2{
+letter-spacing: 25px;
+}
+
+#sepa3{
+word-spacing: 30px;
+}
+    
+#sepa4{
+word-spacing: 90px;
+}
