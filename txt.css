@@ -19,8 +19,17 @@
     color:rgb(255, 129, 198);
 }
 
+#color1:hover{
+transform: scale(1.1) translate();
+letter-spacing: 2px;
+background: linear-gradient(0deg, purple 25%, rgb(255, 95, 122) 50%, purple 90%);
+background-clip: text;
+color:transparent;
+}
+
+
 #color2{
-        background: linear-gradient(purple 25%, rgb(255, 95, 122) 50%, purple 90%);
+        background: linear-gradient(0deg, purple 25%, rgb(255, 95, 122) 50%, purple 90%);
         background-clip: text; /*WEBKIT- se adecua a navegador*/
         color: transparent;  
 }
