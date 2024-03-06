@@ -111,3 +111,31 @@ font-weight: bold;
 #deco4{
     text-decoration: line-through;
 }
+
+/*SOMBRA DE TEXTO*/
+
+#sh1{
+    text-shadow: 0 0 5px blue;
+}
+
+#sh2{
+    text-shadow: -3px -3px 0px green;
+}
+
+/*ALINEACIÓN DE TEXTO*/
+
+#text1{
+    text-align: left;
+}
+
+#text2{
+    text-align: right;
+}
+
+#text3{
+    text-align: center;
+}
+
+#text4{
+    text-align: justify;
+}
