@@ -1,7 +1,11 @@
+/*MANDAR A LLAMAR A LA FUENTE*/
+
 @font-face {
     font-family: pixel;
     src: url(font/PixelifySans-Regular.ttf);
 }
+
+/*ESTRUCTURA BÁSICA HTML*/
 
 *{
     margin: 0;
@@ -9,20 +13,101 @@
     box-sizing: border-box;
 }
 
+/*DEGRADADOS*/
 
 #color1{
     color:rgb(255, 129, 198);
 }
 
 #color2{
-        background: linear-gradient(0deg, purple 25%, rgb(255, 95, 122) 50%, purple 90%);
-        background-clip: text; 
+        background: linear-gradient(purple 25%, rgb(255, 95, 122) 50%, purple 90%);
+        background-clip: text; /*WEBKIT- se adecua a navegador*/
         color: transparent;  
 }
+
+/*FUENTES*/
 
 #family1{
     font-family:Arial, Helvetica, sans-serif;
 }
 #family2{
     font-family: pixel;
+}
+
+/*UNIDADES DE MEDIDA*/
+
+#size1{
+    font-size: 15px;
+}
+
+#size2{
+font-size: 0.3em;
+}
+
+/*ESTILOS DE TEXTO*/
+
+/*letra normal*/
+
+#style1{
+    font-style: normal;
+}
+
+/*cursiva simulada*/
+
+#style2{
+    font-style: italic;
+}
+
+/*cursiva*/
+
+#style3{
+    font-style: oblique;
+}
+
+/*EL WEIGHT INLUCYE NEGRITAS, BOLDER*/
+
+#negrita1{
+font-weight: bold;
+}
+
+#negrita2{
+    font-weight: lighter;
+}
+
+#negrita3{
+    font-weight: 900;
+}
+
+
+/*TRANSFORMARCIÓN DE TEXTO*/
+
+#trans1{
+    text-transform: uppercase;
+    }
+    
+    #trans2{
+        text-transform: lowercase;
+    }
+    
+    #trans3{
+       text-transform: capitalize;
+    }
+    
+    
+/*DECORACIÓN DE TEXTO*/
+
+#deco1{
+    text-decoration: none;
+}
+
+#deco2{
+    text-decoration: overline;
+}
+
+#deco3{
+    text-decoration: underline;
+}
+
+#deco4{
+    text-decoration: line-through;
 }
