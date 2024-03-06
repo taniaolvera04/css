@@ -122,20 +122,24 @@ font-weight: bold;
     text-shadow: -3px -3px 0px green;
 }
 
-/*ALINEACIÓN DE TEXTO*/
+/*ALINEACIÓN DE TEXTO E INTERLINEADO*/
 
 #text1{
     text-align: left;
+    line-height: 1.0;
 }
 
 #text2{
     text-align: right;
+    line-height: 2.0;
 }
 
 #text3{
     text-align: center;
+    line-height: 3.0;
 }
 
 #text4{
     text-align: justify;
+    line-height: 0.5;
 }
