@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+  background: pink;
+  border: 2px ridge deeppink;
+  box-shadow: -5px 5px 30px mediumpurple;
+  margin: 100px;
+  padding: 50px;
+}
+
+
+#uno{
+width: 20em;
+height: 20em;
+}
+
+#dos{
+  width: 90ex;
+  height: 90ex;
+}
+
+#tres{
+  height: 15rem;
+  width: 15rem;
+  
+}
+
+#cuatro{
+  width: 20%;
+  height: 15%;
+}
+
+
+#cinco{
+  width: 60px;
+  height: 60px;
+}
+
+#seis{
+  width: 80mm;
+  height: 80mm;
+}
+
+#siete{
+  width: 96q;
+  height: 96q;
+}
+
+#ocho{
+  width: 6.5in;
+  height: 6.5in;
+}
+
+#doce{
+  width: 7pc;
+  height: 7pc;
+}
+
+#nueve{
+  width: 200pt;
+  height: 200pt;
+}
+
+#diez{
+  width: 50ch;
+  height: 50ch;
+}
+
+#once{
+  width: 36cm;
+  height: 36cm;
+}
