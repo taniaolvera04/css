@@ -1,0 +1,46 @@
+*{
+    margin: 3;
+    padding: 3;
+    box-sizing: border-box;
+  }
+  
+  div{
+    width: 80px;
+    height: 80px;
+    background: lightgray;
+    border: 1.5px solid black;
+    border-radius: 100%;
+    margin: auto;
+  }
+  
+  #cara{
+    background: #ffd12b;
+    width: 590px;
+    height: 590px;
+    z-index: -3;
+  }
+  
+  #ojo1{
+    background: #8c591d;
+    z-index: 1;
+    position: relative;
+    bottom: 445px;
+    right: 105px;
+  }
+  
+  #ojo2{
+    background: #8c591d;
+    z-index: 1;
+    position: relative;
+    bottom: 525px;
+    left: 105px;
+  }
+  
+  #boca{
+    background: #8c591d;
+    z-index: 2;
+    position: relative;
+    bottom: 460px;
+    width: 203px;
+    height: 220px;
+  }

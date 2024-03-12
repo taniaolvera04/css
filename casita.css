@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+#fondo{
+    margin: auto;
+    display: block;
+    width: 885px;
+    height: 480px;
+    background: rgb(143, 171, 224);
+    border: 1px solid rgb(127, 197, 255);
+}
+
+#nube{
+    width: 80px;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border-radius: 100%;
+    background-color: rgb(199, 227, 252);
+    z-index: 1;
+}
+
+#nube12{
+    width: 100px;
+    height: 90px;
+    position: relative;
+    top: -5px;
+    left: 50px;
+    border-radius: 100%;
+    background-color: rgb(199, 227, 252);
+    z-index: 2;
+}
+#nube13{
+    width: 80px;
+    height: 70px;
+    position: relative;
+    top: -86px;
+    left: 120px;
+    border-radius: 100%;
+    background-color: rgb(199, 227, 252);
+    z-index: 3;
+}
+
+
+#nube2{
+    width: 100px;
+    height: 90px;
+    position: relative;
+    top: -45px;
+    left: 450px;
+    border-radius: 100%;
+    background-color: rgb(199, 227, 252);
+    z-index: 2;
+}
+
+#nube22{
+    width: 80px;
+    height: 70px;
+    position: relative;
+    top: 8px;
+    left: -50px;
+    border-radius: 100%;
+    background-color: rgb(199, 227, 252);
+    z-index: 2; 
+}
+
+#nube23{
+    width: 80px;
+    height: 70px;
+    position: relative;
+    top: -60px;
+    left: 75px;
+    border-radius: 100%;
+    background-color: rgb(199, 227, 252);
+    z-index: 2; 
+}
+
+#sol{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: -150px;
+   right:-740px;
+    border-radius: 100%;
+    background-color: #d8ff4c;
+    z-index: 2; 
+}
+
+#sol1{
+width: 40px;
+height: 3px;
+background: #d8ff4c;
+position: relative;
+top:15px;
+left: -45px;
+transform: skew(45deg);
+transform: rotate(20deg);
+}
+
+#sol2{
+    width: 40px;
+    height: 3px;
+    background: #d8ff4c;
+    position: relative;
+    top:60px;
+    left: -60px;
+    transform: skew(45deg);
+    transform: rotate(5deg);
+    }
+
+    #sol3{
+        width: 40px;
+        height: 3px;
+        background: #d8ff4c;
+        position: relative;
+        top:110px;
+        left: -50px;
+        transform: skew(45deg);
+        transform: rotate(-20deg);
+        }
+
+        #sol4{
+            width: 40px;
+            height: 3px;
+            background: #d8ff4c;
+            position: relative;
+            top:150px;
+            left: -10px;
+            transform: skew(45deg);
+            transform: rotate(5deg);
+            transform: rotate(-48deg);
+            }
+        
+            #sol5{
+                width: 40px;
+                height: 3px;
+                background: #d8ff4c;
+                position: relative;
+                top:158px;
+                left: 58px;
+                transform: skew(45deg);
+                transform: rotate(78deg);
+                }
+
+                #sol6{
+                    width: 40px;
+                    height: 3px;
+                    background: #d8ff4c;
+                    position: relative;
+                    top:134px;
+                    left: 110px;
+                    transform: skew(45deg);
+                    transform: rotate(48deg);
+                    }
+
+#casa{
+  margin: auto;
+    display: block;
+    width: 400px;
+    height: 250px;
+    background: rgb(255, 172, 248);
+    border: 1px solid rgb(255, 50, 118);
+    position: relative;
+    bottom: 90px;
+    z-index: 1;
+}
+
+
+
+#puerta{
+    margin: auto;
+    display: block;
+    width: 90px;
+    height: 130px;
+    background: rgb(198, 232, 255);
+    border: 1px solid rgb(50, 190, 255);
+    position: relative;
+    bottom: 230px;
+    left: -100px;
+    z-index: 3;
+}
+
+#perilla{
+    margin: auto;
+    display: block;
+    width: 10px;
+    height:10px;
+    background: blue;
+    border-radius: 100%;
+    border: 1px solid rgb(35, 28, 141);
+    position: relative;
+    bottom: -50px;
+    left: 30px;
+    z-index: 4;
+}
+
+#techo{
+    margin: auto;
+    display: block;
+    width: 500px;
+    height: 30px;
+    background: rgb(147, 56, 207);
+    border: 1px solid rgb(107, 17, 143);
+    position: relative;
+    bottom: 535px;
+    z-index: 2;
+}
+
+#piso{
+    margin: auto;
+    display: block;
+    width: 880px;
+    height: 40px;
+    background: rgb(95, 199, 86);
+    border: 1px solid rgb(50, 117, 57);
+    position: relative;
+    bottom: 231px;
+    z-index: 5;
+}
+
+#v1{
+    margin: auto;
+    display: block;
+    width: 75px;
+    height: 50px;
+    background: rgb(136, 201, 255);
+    border: 1px solid rgb(12, 84, 167);
+    position: relative;
+    bottom: 500px;
+    right: -30px;
+    z-index: 5;
+}
+
+#v2{
+    margin: auto;
+    display: block;
+    width: 75px;
+    height: 50px;
+    background: rgb(136, 201, 255);
+    border: 1px solid rgb(12, 84, 167);
+    position: relative;
+    bottom: 550px;
+    right: -104px;
+    z-index: 7;
+}
+
+#v3{
+    margin: auto;
+    display: block;
+    width: 75px;
+    height: 50px;
+    background: rgb(136, 201, 255);
+    border: 1px solid rgb(12, 84, 167);
+    position: relative;
+    bottom: 551px;
+    right: -104px;
+    z-index: 7;
+}
+#v4{
+    margin: auto;
+    display: block;
+    width: 75px;
+    height: 50px;
+    background: rgb(136, 201, 255);
+    border: 1px solid rgb(12, 84, 167);
+    position: relative;
+    bottom: 601px;
+    right: -30px;
+    z-index: 5;
+}
+
+#tronco1{
+    margin: auto;
+    display: block;
+    width: 30px;
+    height: 150px;
+    background: rgb(112, 66, 48);
+    border: 1px solid rgb(80, 46, 33);
+    position: relative;
+    bottom: 150px;
+    left: 350px;
+    z-index: 7;
+}
+
+
+#copa1{
+    margin: auto;
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: rgb(88, 196, 88);
+    border-radius: 100%;
+    position: relative;
+    bottom: 340px;
+    left: 350px;
+    z-index: 8;
+}
+
+#copa12{
+    margin: auto;
+    display: block;
+    width: 94px;
+    height: 100px;
+    background: rgb(88, 196, 88);
+    border-radius: 100%;
+    position: relative;
+    bottom: 530px;
+    left: 350px;
+    z-index: 8;
+}
+
+#tronco2{
+    margin: auto;
+    display: block;
+    width: 30px;
+    height: 150px;
+    background: rgb(112, 66, 48);
+    border: 1px solid rgb(80, 46, 33);
+    position: relative;
+    bottom: 520px;
+   right: 370px;
+    z-index: 9;
+}
+
+#copa2{
+    margin: auto;
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: rgb(88, 196, 88);
+    border-radius: 100%;
+    position: relative;
+    bottom: 710px;
+    right: 370px;
+    z-index: 10;
+}
+
+#copa21{
+    margin: auto;
+    display: block;
+    width: 94px;
+    height: 100px;
+    background: rgb(88, 196, 88);
+    border-radius: 100%;
+    position: relative;
+    bottom: 900px;
+    right: 370px;
+    z-index: 11;
+}
+
+#cabeza{
+    margin: auto;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: black;
+    border-radius: 100%;
+    position: relative;
+    bottom: 620px;
+    left: -250px;
+    z-index: 12;
+}
+
+#cuerpo{
+    margin: auto;
+    display: block;
+    width: 7px;
+    height: 42px;
+    background: black;
+    position: relative;
+    bottom: 620px;
+    left: -250px;
+    z-index: 13;
+}
+
+#brazo1{
+    margin: auto;
+    display: block;
+    width: 25px;
+    height: 5px;
+    background: black;
+    position: relative;
+    bottom: 645px;
+    left: -240px;
+    z-index: 13;
+    transform: rotate(43deg);
+}
+
+#brazo2{
+    margin: auto;
+    display: block;
+    width: 25px;
+    height: 5px;
+    background: black;
+    position: relative;
+    bottom: 650px;
+    left: -260px;
+    z-index: 13;
+    transform: rotate(-43deg);
+}
+
+#pierna1{
+    margin: auto;
+    display: block;
+    width: 50px;
+    height: 6px;
+    background: black;
+    position: relative;
+    bottom: 614px;
+    left: -261px;
+    z-index: 13;
+    transform: rotate(-60deg);
+}
+
+#pierna2{
+    margin: auto;
+    display: block;
+    width: 50px;
+    height: 6px;
+    background: black;
+    position: relative;
+    bottom: 620px;
+    left: -237px;
+    z-index: 13;
+    transform: rotate(60deg);
+}
