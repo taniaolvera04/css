@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUPÓN</title>
+</head>
+<body>
+    
+<div id="cup1"></div>
+<div id="cup2"></div>
+<style>
+  body {
+    background: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    height: 100px;
+  }
+  #cup1 {
+    width: 140px;
+    background: #f8a2a2;
+  }
+  #cup2 {
+    width: 60px;
+    background: #e36690;
+  }
+  #cup1:before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #62306D;
+    border-radius: 50%;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    box-shadow: 200px 0px #62306D, 0px 100px #62306D, 200px 100px #62306D, 140px 0px 0px -10px #62306D, 140px 100px 0px -10px #62306D;
+  }
+</style>
+</body>
+</html>

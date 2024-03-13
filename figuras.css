@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fig1{
+    margin: auto;
+    display: block;
+    position: relative;
+    background: rgb(128, 0, 128);
+    height: 500px;
+    width: 800px;
+    z-index: 1;
+}
+
+#m1{
+    margin: auto;
+    position: relative;
+    bottom: -225px;
+    background: rgb(255, 237, 75);
+    height: 150px;
+    width: 400px;
+    border-radius: 100px 0 0 100px;
+    z-index: 2;
+    transform: rotate(90deg);
+}
+#m2{
+    margin: auto;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    background: rgb(255, 237, 75);
+    border-radius: 150px 0 0 150px;
+    height: 150px;
+    width: 250px;
+    z-index: 3;
+    transform: rotate(90deg);
+}
+#m3{
+    margin: auto;
+    position: relative;
+    bottom: 0px;
+    right: 150px;
+    background: rgb(255, 237, 75);
+    border-radius: 150px 0 0 150px;
+    height: 150px;
+    width: 250px;
+    z-index: 3;
+    transform: rotate(90deg);
+}
+
+#m4{
+    margin: auto;
+    position: relative;
+    bottom: 243px;
+    right: 150px;
+    background: rgb(185, 56, 56);
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    z-index: 3;
+}
+
+#m5{
+    margin: auto;
+    position: relative;
+    bottom: 399px;
+    right: -150px;
+    background: rgb(185, 56, 56);
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    z-index: 3;
+}
+
+#m6{
+    margin: auto;
+    position: relative;
+    top: -700px;
+    right: 0;
+    background: rgb(233, 146, 75);
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    z-index: 3;
+    transform: rotate(90deg);
+}
+
+#m7{
+    margin: auto;
+    position: relative;
+    top: -830px;
+    right: 0;
+    background: rgb(185, 56, 56);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    z-index: 3;
+}
+
+#m8{
+    margin: auto;
+    position: relative;
+    top: -790px;
+    right: 150px;
+    background: rgb(233, 146, 75);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    z-index: 3;
+}
+
+#m9{
+    margin: auto;
+    position: relative;
+    top: -890px;
+    right: -150px;
+    background: rgb(233, 146, 75);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    z-index: 3;
+}
+
+
+
+#fig2{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 100px;
+    background: rgb(28, 0, 128);
+    height: 600px;
+    width: 800px;
+    z-index: 1;
+}
+
+#g1{
+    margin: auto;
+    position: relative;
+    bottom: -500px;
+    right: 255px;
+    background: rgb(255, 228, 76);
+    height: 90px;
+    width: 90px;
+    z-index: 2;
+}
+
+#g2{
+    margin: auto;
+    position: relative;
+    bottom: -310px;
+    right: 255px;
+    background: rgb(233, 75, 96);
+    height: 90px;
+    width: 90px;
+    z-index: 3;
+}
+
+#g3{
+    margin: auto;
+    position: relative;
+    bottom: -120px;
+    right: 255px;
+    background: rgb(255, 228, 76);
+    height: 90px;
+    width: 90px;
+    z-index: 4;
+}
+
+#g5{
+    margin: auto;
+    position: relative;
+    bottom: 70px;
+    right: 255px;
+    background: rgb(255, 228, 76);
+    height: 90px;
+    width: 90px;
+    z-index: 5;
+}
+
+#g6{
+    margin: auto;
+    position: relative;
+    bottom: 160px;
+    right: 155px;
+    background: rgb(255, 228, 76);
+    height: 90px;
+    width: 90px;
+    z-index: 6;
+}
+
+#g7{
+    margin: auto;
+    position: relative;
+    bottom: 150px;
+    right: 155px;
+    background: rgb(255, 228, 76);
+    height: 90px;
+    width: 90px;
+    z-index: 7;
+}
+
+#g8{
+    margin: auto;
+    position: relative;
+    bottom: 140px;
+    right: 155px;
+    background: rgb(233, 75, 96);
+    height: 90px;
+    width: 90px;
+    z-index: 6;
+}
+
+#g9{
+    margin: auto;
+    position: relative;
+    bottom: 130px;
+    right: 155px;
+    background: rgb(129, 226, 210);
+    height: 90px;
+    width: 90px;
+    z-index: 6;
+}
+
+#g10{
+    margin: auto;
+    position: relative;
+    bottom: 220px;
+    right: 55px;
+    background: rgb(129, 226, 210);
+    height: 90px;
+    width: 90px;
+    z-index: 6;
+}
+
+#g11{
+    margin: auto;
+    position: relative;
+    bottom: 410px;
+    right: 55px;
+    background:rgb(233, 75, 96);
+    height: 90px;
+    width: 90px;
+    z-index: 7;
+}
+
+#g12{
+    margin: auto;
+    position: relative;
+    bottom: 600px;
+    right: 55px;
+    background:rgb(233, 75, 96);
+    height: 90px;
+    width: 90px;
+    z-index: 7;
+}
+
+#g13{
+    margin: auto;
+    position: relative;
+    top: -890px;
+    right: -45px;
+    background:rgb(233, 75, 96);
+    height: 90px;
+    width: 90px;
+    z-index: 7;
+}
+
+#g14{
+    margin: auto;
+    position: relative;
+    top: -880px;
+    right: -45px;
+    background:rgb(233, 75, 96);
+    height: 90px;
+    width: 90px;
+    z-index: 7;
+}
+
+#g15{
+    margin: auto;
+    position: relative;
+    top: -1070px;
+    right: -145px;
+    background:rgb(233, 75, 96);
+    height: 90px;
+    width: 90px;
+    z-index: 7;
+}
+
+#g16{
+    margin: auto;
+    position: relative;
+    top: -1260px;
+    right: -145px;
+    background:rgb(233, 75, 96);
+    height: 90px;
+    width: 90px;
+    z-index: 7;
+}
+
+#g17{
+    margin: auto;
+    position: relative;
+    bottom: 850px;
+    right: -45px;
+    background: rgb(129, 226, 210);
+    height: 90px;
+    width: 90px;
+    z-index: 8;
+}
+
+#g18{
+    margin: auto;
+    position: relative;
+    bottom: 1040px;
+    right: -45px;
+    background: rgb(129, 226, 210);
+    height: 90px;
+    width: 90px;
+    z-index: 8;
+}
+
+#g19{
+    margin: auto;
+    position: relative;
+    bottom: 1030px;
+    right: -145px;
+    background: rgb(154, 74, 179);
+    height: 90px;
+    width: 90px;
+    z-index: 8;
+}
+
+#g20{
+    margin: auto;
+    position: relative;
+    bottom: 1220px;
+    right: -145px;
+    background: rgb(154, 74, 179);
+    height: 90px;
+    width: 90px;
+    z-index: 8;
+}
+
+#g21{
+    margin: auto;
+    position: relative;
+    bottom: 1410px;
+    right: -145px;
+    background: rgb(154, 74, 179);
+    height: 90px;
+    width: 90px;
+    z-index: 9;
+}
+
+#g22{
+    margin: auto;
+    position: relative;
+    bottom: 1300px;
+    right: -245px;
+    background: rgb(129, 226, 210);
+    height: 90px;
+    width: 90px;
+    z-index: 9;
+}
+
+#g23{
+    margin: auto;
+    position: relative;
+    bottom: 1490px;
+    right: -245px;
+    background: rgb(154, 74, 179);
+    height: 90px;
+    width: 90px;
+    z-index: 9;
+}
+
+#fig3{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 200px;
+    height: 400px;
+    width: 700px;
+    background: rgb(31, 31, 126);
+    z-index: 1;
+}
+
+#o1{
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: -225px;
+    height: 250px;
+    width: 250px;
+    background: rgb(255, 246, 165);
+    z-index: 2;
+}
+
+#o2{
+    margin: auto;
+    position: relative;
+    top: 0px;
+    left: -250px;
+    height: 150px;
+    width: 200px;
+    background: rgb(255, 77, 77);
+    z-index: 2;
+}
+
+#o3{
+    margin: auto;
+    position: relative;
+    top: -150px;
+    left: -125px;
+    height: 150px;
+    width: 50px;
+    background: rgb(177, 51, 51);
+    z-index: 2;
+}
+
+
+#o4{
+    margin: auto;
+    position: relative;
+    top: -525px;
+    left: -25px;
+    height: 150px;
+    width: 200px;
+    background: rgb(255, 77, 77);
+    z-index: 3;
+    transform: rotate(90deg);
+}
+
+#o5{
+    margin: auto;
+    position: relative;
+    top: -550px;
+    left: -25px;
+    height: 150px;
+    width: 50px;
+    background: rgb(177, 51, 51);
+    z-index: 4;
+    transform: rotate(90deg);
+}
+
+#fig4{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 300px;
+    height: 450px;
+    width: 700px;
+    background: rgb(221, 44, 97);
+    z-index: 1;  
+}
+
+#u1{
+    margin: auto;
+    position: relative;
+    top: 240px;
+    height: 200px;
+    width: 200px;
+    background: rgb(255, 255, 255);
+    z-index: 2;  
+}
+
+#u2{
+    margin: auto;
+    position: relative;
+    top: -153px;
+    right: -86px;
+    height: 160px;
+    width: 160px;
+    background: rgb(253, 255, 155);
+    z-index: 2;  
+    transform: rotate(38deg);
+}
+
+#u3{
+    margin: auto;
+    position: relative;
+    top: -269px;
+    right: 112px;
+    height: 125px;
+    width: 125px;
+    background: rgb(101, 241, 183);
+    z-index: 2;  
+    transform: rotate(36deg);
+}
