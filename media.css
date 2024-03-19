@@ -50,12 +50,12 @@ footer{
     aside{
         background: rgb(104, 201, 230);
         grid-column: 1/3;
-       
+        grid-row: 3/4;
     }
     main{
         background: rgb(240, 167, 108);
         grid-column: 1/3;
-    
+        grid-row: 4/5;
     }
     
 }
