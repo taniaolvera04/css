@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMACIÓN</title>
+    <link rel="stylesheet" href="animacion.css">
+</head>
+<body>
+
+  <img class="gato" src="gato.png" onclick="this.style.left='850px'">
+
+  <button id="gatito" >GATITO</button>
+  <style>
+    #gatito {
+      transition-property: background-color;
+      transition-duration: 3s;
+    }
+  </style>
+  
+  <script>
+    gatito.onclick = function() {
+      this.style.backgroundColor = 'hotpink';
+    };
+  </script>
+</body>
+</html>
